@@ -5,16 +5,108 @@
 
 *{
     margin: 20px;
+    background-color: #F5F5F5;
 }
 
 /* shared style */
 .text-sub-title{
-    
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btn-primary{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    padding: 17px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: white;
+}
+
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    background-color: white;
 }
 
 /* navbar style */
 .navbar{
     display: flex;
     justify-content: space-between;
-    border: 1px solid purple;
+}
+
+.btn{
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.text-part{
+    background-color: #C6E4D6;
+    width: 55%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.img-part{
+    background-color: #C6E4D6;
+    width: 35%;
+}
+.img{
+    background-color: #C6E4D6;
+}
+
+.heading-description{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    background-color: #C6E4D6;
+}
+
+.heading-title{
+    font-size: 56px;
+    font-weight: 700;
+    background-color: #C6E4D6;
+
+}
+
+/* Pillars section style */
+.pillar-section{
+    margin-top: 50px;
+}
+
+.pillar-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pillar-card{
+    background-color: white;
+    border-radius: 16px;
 }
