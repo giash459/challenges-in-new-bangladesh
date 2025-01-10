@@ -1,0 +1,20 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+
+*{
+    margin: 20px;
+}
+
+/* shared style */
+.text-sub-title{
+    
+}
+
+/* navbar style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid purple;
+}
