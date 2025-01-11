@@ -192,7 +192,7 @@
 }
 
 .vision-description {
-    background-image: url("/assets/quote-bg.png");
+    background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     margin: 0;
     padding: 24px 0 0 0;
