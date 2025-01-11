@@ -98,15 +98,102 @@
 
 /* Pillars section style */
 .pillar-section{
-    margin-top: 50px;
+    margin-top: 20px 0;
 }
 
 .pillar-cards{
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 
 .pillar-card{
     background-color: white;
     border-radius: 16px;
+}
+
+.text-gray{
+    background-color: #F5F5F5;
+}
+
+.img-bg{
+    background-color: white;
+}
+
+/* vision-section-style */
+
+.vision-section{
+    margin: 50px 0;
+}
+
+.card{
+    width: 100%;
+}
+
+.card-bg-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.card-bg-11{
+    background-color: rgba(84, 143, 245, 0);
+}
+
+.card-bg-2{
+    background-color: rgb(198, 228, 214);
+}
+
+.card-bg-3{
+    background-color: rgb(247, 235, 207);
+}
+
+.btn-vision{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-1{
+    background-color: rgb(84, 144, 245);
+}
+.btn-2{
+    background-color: rgb(9, 161, 92);
+}
+.btn-3{
+    background-color: rgb(255, 194, 57);
+}
+
+.vision-content{
+    background-color: white;
+    padding: 40px 24px;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    border-radius: 16px;
+}
+
+.vision-description{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 24px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vision-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: white;
+}
+
+.vision-text{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    color: rgba(14, 14, 14, 0.6);
 }
