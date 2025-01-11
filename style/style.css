@@ -43,6 +43,10 @@
     background-color: white;
 }
 
+.bg-gray{
+    background-color: #F5F5F5;
+}
+
 /* navbar style */
 .navbar{
     display: flex;
@@ -196,4 +200,28 @@
     font-weight: 400;
     background-color: white;
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* React News Section Style */
+.react-card-1{
+    display: flex;
+    padding: 50px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 24px;
+}
+
+.react-img{
+    border-radius: 24px;
+    width: 600px;
+}
+
+.react-content{
+    background-color: white;
+}
+
+.card-heading{
+    font-size: 32px;
+    font-weight: 700;
+    background-color: white;
 }
